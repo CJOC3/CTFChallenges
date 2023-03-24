@@ -17,8 +17,18 @@ d7 03 80 18 00 e1 cf a0 00 00 01 01 08 0a 09 3e
 0d 0a 41 63 63 65 70 74 3a 20 2a 2f 2a 0d 0a 0d
 0a`
 
-The hex values can be converted into text using cyberchef. Once converted, it reveals pieces of information. 
+The hex values can be converted into text using cyberchef. Once converted, it reveals pieces of information.
+
+<p align="center">
+  <img src="screenshot2.png">
+</p>
+
 - The most interesting piece of information is the one encoded in a base-64 scheme `Y29uZmk6ZGVudGlhbA==`.
 
 Since I am already on the same platform that can also decode base-64 values, might as well do it there. 
+
+<p align="center">
+  <img src="Screenshot3.png">
+</p>
+
 - This reveals the secret word: `confi:dential`.
