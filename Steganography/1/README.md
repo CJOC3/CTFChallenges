@@ -1,6 +1,8 @@
 ## This challenge was given by a mentor to train us for the upcoming Hack For Gov
 
-![Screenshot](atbash.jpg)
+<p align="center">
+  <img src="atbash.jpg">
+</p>
 
 ### Since an image is given, I used an online Steganographic Decoder https://futureboy.us/stegano/decinput.html
 - Uploaded the image
