@@ -1,7 +1,8 @@
 ## This challenge was given by a mentor to train us for the upcoming Hack For Gov
 
 ![Screenshot](atbash.jpg)
-Since an image is given, I used an online Steganographic Decoder https://futureboy.us/stegano/decinput.html
+
+### Since an image is given, I used an online Steganographic Decoder https://futureboy.us/stegano/decinput.html
 - Uploaded the image
 - Select `view raw output as MIME-type text/plain`
 - Submit query
