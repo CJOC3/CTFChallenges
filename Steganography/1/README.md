@@ -13,6 +13,10 @@ Doing this will load a new tab that contains the decoded string from the image: 
 
 Since the image said that it used Atbash cipher, I decided to use cyberchef and selected Atbash cipher as its recipe. 
 
+<p align="center">
+  <img src="screenshot.png">
+</p>
+
 
 
 Doing so will reveal the flag: `picoCTF{atbash_crack_92533667}`
