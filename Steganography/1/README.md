@@ -1,4 +1,4 @@
-## This challenge was given by a mentor to train us for the upcoming Hack For Gov
+## This challenge was given by a mentor to train us for the upcoming Hack For Gov.
 
 <p align="center">
   <img src="atbash.jpg">
