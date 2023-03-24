@@ -4,7 +4,7 @@
   <img src="atbash.jpg">
 </p>
 
-### Since an image is given, I used an online Steganographic Decoder https://futureboy.us/stegano/decinput.html
+Since an image is given, I used an online Steganographic Decoder https://futureboy.us/stegano/decinput.html
 - Uploaded the image
 - Select `view raw output as MIME-type text/plain`
 - Submit query
