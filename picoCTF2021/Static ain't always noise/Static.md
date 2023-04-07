@@ -1,5 +1,5 @@
 ### Description 
-- Can you look at the data in this binary: static? This BASH script might help!
+- Can you look at the data in this binary: <a href="static"> static? </a>  This BASH script might help!
 
 ### Category 
 - General Skills 
