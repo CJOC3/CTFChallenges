@@ -12,7 +12,7 @@
 <img src="bo1.2.png">
 - In doing so, I found out that 44 bytes are need to overflow the buffer of the program. Hence, a padding of 44 A's will do. 
 - Next, we have to find out the return address of the `win function` since there is no line on the <a href="vuln.c">source code</a> that will call it. This can be done 
-by running the command `disass win`. 
+by running the command `disass win` 
 <img src="bo1.3.png">
 - At this point, we now have all the information that we need to get the flag from the program. Running the <a href="getflag.py">python file</a> that I made was able to reveal the flag. 
 <img src="bo1.4.png">
