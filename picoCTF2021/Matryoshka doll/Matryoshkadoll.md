@@ -6,7 +6,7 @@
 
 ### Approach 
 - The name of the challenge gives us a hint that there may be something stored in the given file. First, I checked the file type of the first image. 
-- It has an extension of `.jgp` but according to the `file` command, it should be a PNG file. Thus, I changed its extension to `.png`. 
+- It has an extension of `.jpg` but according to the `file` command, it should be a PNG file. Thus, I changed its extension to `.png`. 
 - To check if there is something stored in the given file, I used the command `binwalk dolls.png`. It showed that there are zip archives within the png image. 
 - Running `binwalk -e dolls.png` will extract the files in a new folder. 
 - Change directory to `base images` and it shows another file that has `.jpg` extension but upon closer inspection with `file` command again, it is supposed 
