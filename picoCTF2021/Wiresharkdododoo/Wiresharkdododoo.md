@@ -14,8 +14,6 @@ this does not yet reveal the flag.
 
 - It looks like a rotation cipher. Thus, decoding it through a rotation cipher decoder online such as https://rot13.com, the flag is revealed. 
 
-<img src="wiresharkdodoo2.png">
-
 
 ### Flag 
 - picoCTF{p33kab00_1_s33_u_deadbeef}
