@@ -14,7 +14,7 @@ this does not yet reveal the flag.
 
 - It looks like a rotation cipher. Thus, decoding it through a rotation cipher decoder online such as https://rot13.com, the flag is revealed. 
 
-<img src="wiresharkdododoo2.png">
+<img src="wiresharkdodoo2.png">
 
 
 ### Flag 
