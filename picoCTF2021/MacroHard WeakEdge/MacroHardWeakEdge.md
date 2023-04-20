@@ -13,7 +13,7 @@ but with enabled macro (.pptm)
 - Checking the directories one-by-one manually can be time-consuming. I opted to use the command `ls -l` on a specific directory to let me see the summary of contents of that particular directory. 
 - The directory that piqued my interest was the `slideMasters` as it has a `hidden` file.
 <img src="mhwe1.png">
-- I then checked `hidden`'s file type, with is just an ASCII text. 
+- Upon checking its file type, it is just an ASCII text. 
 - `cat hidden` reveals a base-64 string `Z m x h Z z o g c G l j b 0 N U R n t E M W R f d V 9 r b j B 3 X 3 B w d H N f c l 9 6 M X A 1 f Q`.
 - I chose to save this string to a text file so that I can use this command to remove whitespaces and newlines of a text just to be sure 
 `cat hidden.txt | tr -d " \t\n\r`
