@@ -7,8 +7,7 @@
 ### Approach 
 - Upon opening the pcap file in Wireshark, the names of certain files `instructions.txt` and `plan` can be seen immediately.
 - Checking their corresponding data packets shows us two strings that are encrypted in ROT13.
-- For `instructions.txt`, I copied the data `GSGCQBRFAGRAPELCGBHEGENSSVPFBJRZHFGQVFTHVFRBHESYNTGENAFSRE.SVTHERBHGNJNLGBUVQRGURSYNTNAQVJVYYPURPXONPXSBEGURCYNA
- ` as a printed as a printable text so that I can paste it to a rot13 ciper such as https://rot13.com.
+- For `instructions.txt`, I copied the data `GSGCQBRFAGRAPELCGBHEGENSSVPFBJRZHFGQVFTHVFRBHESYNTGENAFSRE.SVTHERBHGNJNLGBUVQRGURSYNTNAQVJVYYPURPXONPXSBEGURCYNA` as a printed as a printable text so that I can paste it to a rot13 ciper such as https://rot13.com.
 - As for `plan`, I did the same thing with its associated data packet. Its string is `VHFRQGURCEBTENZNAQUVQVGJVGU-QHRQVYVTRAPR.PURPXBHGGURCUBGBF` 
 - Naturally, `instructions.txt` gave me an instinct to check it first because of its name. 
 - Decoding the string from `instructions.txt` said that `TFTPDOESNTENCRYPTOURTRAFFICSOWEMUSTDISGUISEOURFLAGTRANSFER.FIGUREOUTAWAYTOHIDETHEFLAGANDIWILLCHECKBACKFORTHEPLAN`
