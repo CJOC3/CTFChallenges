@@ -11,7 +11,8 @@
 - As for `plan`, I did the same thing with its associated data packet. Its string is `VHFRQGURCEBTENZNAQUVQVGJVGU-QHRQVYVTRAPR.PURPXBHGGURCUBGBF` 
 - Naturally, `instructions.txt` gave me an instinct to check it first because of its name. 
 - Decoding the string from `instructions.txt` said that `TFTPDOESNTENCRYPTOURTRAFFICSOWEMUSTDISGUISEOURFLAGTRANSFER.FIGUREOUTAWAYTOHIDETHEFLAGANDIWILLCHECKBACKFORTHEPLAN`
-- It mentioned something about the plan. Decoding the string from `plan` stated `IUSEDTHEPROGRAMANDHIDITWITH-DUEDILIGENCE.CHECKOUTTHEPHOTOS`
+- It mentioned something about the plan. Decoding the string from `plan` stated 
+`IUSEDTHEPROGRAMANDHIDITWITH-DUEDILIGENCE.CHECKOUTTHEPHOTOS`
 - It wants us to check some photos. I exported the objects from TFTP in Wireshark and checked out the photos one by one. 
 - At first, I ran the photos through the commands `strings`, `exiftool`, `binwalk` and `zsteg`. These didn't give me anything at first which is why I was stuck for a while.
 - Then I checked the photos again using `steghide info`. However, using this tool requires us to input a passphrase. From the decoded string of `plan`, it mentioned
